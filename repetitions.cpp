@@ -14,8 +14,8 @@ int solution(string str) {
 			i++;
 		}
     
-        res = (res > cnt) ? res : cnt;
-        i++;
+		res = (res > cnt) ? res : cnt;
+		i++;
 	}
 
 	return res;
